@@ -1,13 +1,159 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en" class="no-js">
 
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Landing Page - Empreendedorismo</title>
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
+	<link rel="stylesheet" href="dist/css/style.css">
+	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+	<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
-<body>
-	<h1>Início do Projeto de Empreendedorismo</h1>
+
+<body class="is-boxed has-animations">
+	<div class="body-wrap">
+		<header class="site-header">
+			<div class="container">
+				<div class="site-header-inner">
+					<div class="brand header-brand">
+						<h1 class="m-0">
+							<a href="#">
+								<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
+							</a>
+						</h1>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero">
+				<div class="container">
+					<div class="hero-inner">
+						<div class="hero-copy">
+							<h1 class="hero-title mt-0">Perfis VSCode para todas as tecnologias</h1>
+							<p class="hero-paragraph">Toda stack precisa de um bom ambiente desenvolvimento. Temos diversos ambientes com as melhores configurações, prontos para você!</p>
+							<div class="hero-cta">
+								<a class="button button-primary" href="#ambients">VER AMBIENTES</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="features section">
+				<div class="container">
+					<div id="ambients" class="features-inner section-inner has-bottom-divider">
+						<div class="features-wrap">
+							<div class="feature text-center is-revealing">
+								<div class="feature-inner">
+									<div class="feature-icon">
+										<img src="./src/images/react.svg" alt="React">
+									</div>
+									<h4 class="feature-title mt-24">React</h4>
+									<p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu
+										cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit
+										scelerisque mauris.</p>
+								</div>
+							</div>
+							<div class="feature text-center is-revealing">
+								<div class="feature-inner">
+									<div class="feature-icon">
+										<img src="./src/images/vue.svg" alt="Vue">
+									</div>
+									<h4 class="feature-title mt-24">Vue</h4>
+									<p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu
+										cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit
+										scelerisque mauris.</p>
+								</div>
+							</div>
+							<div class="feature text-center is-revealing">
+								<div class="feature-inner">
+									<div class="feature-icon">
+										<img src="./src/images/angular.svg" alt="Angular">
+									</div>
+									<h4 class="feature-title mt-24">Angular</h4>
+									<p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu
+										cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit
+										scelerisque mauris.</p>
+								</div>
+							</div>
+							<div class="feature text-center is-revealing">
+								<div class="feature-inner">
+									<div class="feature-icon">
+										<img src="./src/images/next.svg" alt="Next">
+									</div>
+									<h4 class="feature-title mt-24">Next</h4>
+									<p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu
+										cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit
+										scelerisque mauris.</p>
+								</div>
+							</div>
+							<div class="feature text-center is-revealing">
+								<div class="feature-inner">
+									<div class="feature-icon">
+										<img src="./src/images/nuxt.svg" alt="Nuxt">
+									</div>
+									<h4 class="feature-title mt-24">Nuxt</h4>
+									<p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu
+										cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit
+										scelerisque mauris.</p>
+								</div>
+							</div>
+							<div class="feature text-center is-revealing">
+								<div class="feature-inner">
+									<div class="feature-icon">
+										<img src="./src/images/laravel.svg" alt="Laravel">
+									</div>
+									<h4 class="feature-title mt-24">Laravel</h4>
+									<p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu
+										cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit
+										scelerisque mauris.</p>
+								</div>
+							</div>
+							<div class="feature text-center is-revealing">
+								<div class="feature-inner">
+									<div class="feature-icon">
+										<img src="./src/images/electron.svg" alt="Electron">
+									</div>
+									<h4 class="feature-title mt-24">Electron</h4>
+									<p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu
+										cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit
+										scelerisque mauris.</p>
+								</div>
+							</div>
+							<div class="feature text-center is-revealing">
+								<div class="feature-inner">
+									<div class="feature-icon">
+										<img src="./src/images/django.svg" alt="Django">
+									</div>
+									<h4 class="feature-title mt-24">Django</h4>
+									<p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu
+										cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit
+										scelerisque mauris.</p>
+								</div>
+							</div>
+							<div class="feature text-center is-revealing">
+								<div class="feature-inner">
+									<div class="feature-icon">
+										<img src="./src/images/dotnet.svg" alt="Dotnet">
+									</div>
+									<h4 class="feature-title mt-24">.NET</h4>
+									<p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu
+										cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit
+										scelerisque mauris.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+
+	<script src="dist/js/main.min.js"></script>
 </body>
+
 </html>
